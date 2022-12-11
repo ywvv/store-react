@@ -1,0 +1,44 @@
+.green {
+  .form-check-input {
+    cursor: pointer;
+    background-color: #198754;
+    border: 0;
+    border-radius: 50% !important;
+    &:focus {
+      border: 0;
+    }
+    &:checked {
+      background-color: #198754;
+    }
+  }
+}
+
+.pink {
+  .form-check-input {
+    cursor: pointer;
+    background-color: hotpink;
+    border: 0;
+    border-radius: 50% !important;
+    &:focus {
+      border: 0;
+    }
+    &:checked {
+      background-color: hotpink;
+    }
+  }
+}
+
+.white {
+  .form-check-input {
+    cursor: pointer;
+    background-color: #d5d0d0;
+    border: 0;
+    border-radius: 50% !important;
+    &:focus {
+      border: 0;
+    }
+    &:checked {
+      background-color: #d5d0d0;
+    }
+  }
+}
